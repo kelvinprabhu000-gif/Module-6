@@ -35,7 +35,6 @@ class Beans:
         print("Green")
 
 
-# Class Mango
 class Mango:
     def type(self):
         print("Fruit")
@@ -44,17 +43,14 @@ class Mango:
         print("Yellow")
 
 
-# Generic function
 def func(obj):
     obj.type()
     obj.color()
 
 
-# Create objects
 b = Beans()
 m = Mango()
 
-# Call function
 func(b)
 func(m)
 ```
