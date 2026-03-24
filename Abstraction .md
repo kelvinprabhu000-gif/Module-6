@@ -29,7 +29,7 @@ To create an **abstract class** named `Shape` with an **abstract method** `calcu
 ---
 
 ## 💻 Program
-```
+```py
 from abc import ABC, abstractmethod
 import math
 
