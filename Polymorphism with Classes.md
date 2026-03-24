@@ -26,7 +26,39 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
 ---
 
 ## 💻 Program
+```pyclass Beans:
+    def type(self):
+        print("Vegetable")
 
+    def color(self):
+        print("Green")
+
+
+# Class Mango
+class Mango:
+    def type(self):
+        print("Fruit")
+
+    def color(self):
+        print("Yellow")
+
+
+# Generic function
+def func(obj):
+    obj.type()
+    obj.color()
+
+
+# Create objects
+b = Beans()
+m = Mango()
+
+# Call function
+func(b)
+func(m)
+```
 ## Output
+<img width="629" height="497" alt="image" src="https://github.com/user-attachments/assets/55239256-9546-4def-a205-7d1c5266530f" />
 
 ## Result
+Thus, the Python program demonstrating polymorphism using a generic function was executed successfully, and the output obtained
